@@ -28,11 +28,11 @@ const About: React.FC = () => {
       >
         <div className="flex-1">
           <p className="text-lg">
-            I'm a computer science student with a deep passion for UX/UI design
-            and front-end development. My journey began with a curiosity for how
-            things work and a desire to create intuitive and beautiful user
-            experiences. I believe in the power of combining aesthetics with
-            functionality to bring ideas to life.
+            I&apos;m a computer science student with a deep passion for UX/UI
+            design and front-end development. My journey began with a curiosity
+            for how things work and a desire to create intuitive and beautiful
+            user experiences. I believe in the power of combining aesthetics
+            with functionality to bring ideas to life.
           </p>
           <div className="mt-6 flex flex-wrap gap-4">
             <ButtonPrimary

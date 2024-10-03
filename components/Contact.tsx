@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
         >
           <h3 className="mb-4 text-2xl font-semibold">Contact Me</h3>
           <p className="mb-8 text-gray-400">
-            I'm open to discussing new projects, creative ideas, or
+            I&apos;m open to discussing new projects, creative ideas, or
             opportunities to be part of your visions.
           </p>
           <ContactForm />

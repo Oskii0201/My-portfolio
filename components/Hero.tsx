@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Hello Everyone, I'm Oskar!
+          Hello Everyone, I&apos;m Oskar!
         </motion.h1>
         <motion.p
           className="max-w-3xl text-center text-lg text-gray-300 sm:text-xl md:text-2xl"
