@@ -39,7 +39,6 @@ const About: React.FC = () => {
               href="/OskarDybasCV.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="button-primary"
               download="Oskar_Dybas_CV.pdf"
             >
               Download CV
