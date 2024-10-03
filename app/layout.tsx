@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Sidebar } from "@/app/components/Sidebar/Sidebar";
+import { Sidebar } from "@/components/Sidebar/Sidebar";
 
 export const metadata: Metadata = {
   title: "Oskar Dybas Portfolio",
@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scrollbar-global scroll-smooth">
       <body>
         <Sidebar />
         {children}
