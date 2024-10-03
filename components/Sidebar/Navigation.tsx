@@ -31,7 +31,7 @@ export const Navigation: React.FC = () => {
           key={item.href}
           animate="visible"
           initial="hidden"
-          whileHover={{ scale: 1.1, color: "rgb(74 222 128)" }}
+          whileHover={{ scale: 1.1, color: "rgb(34 197 94)" }}
           whileTap={{ scale: 0.9 }}
         >
           <Link

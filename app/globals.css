@@ -16,3 +16,9 @@ body {
 .section-heading {
   @apply text-center text-3xl font-bold text-white md:text-4xl lg:text-5xl;
 }
+
+.scrollbar-global {
+  @apply scrollbar-thin scrollbar-thumb-green-500 scrollbar-track-gray-800 dark:scrollbar-thumb-green-300 dark:scrollbar-track-gray-700;
+  scrollbar-width: thin;
+  scrollbar-color: #22b35e #050505;
+}

@@ -1,8 +1,11 @@
 "use client";
-import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Link from "next/link";
-
+import React from "react";
+interface SocialsProps {
+  className?: string;
+}
 type Social = {
   icon: JSX.Element;
   label: string;
@@ -20,17 +23,22 @@ const socials: Social[] = [
     label: "Facebook",
     href: "https://facebook.com/oskar.dybas.1",
   },
+  {
+    icon: <FaEnvelope />,
+    label: "Email",
+    href: "mailto:oskar0201@onet.pl",
+  },
 ];
-export const Socials: React.FC = () => {
+export const Socials: React.FC<SocialsProps> = ({ className = "" }) => {
   return (
-    <div className="flex flex-col gap-6 text-xl md:flex-row md:justify-between md:text-2xl">
+    <div className={`flex gap-4 text-xl md:text-2xl ${className}`}>
       {socials.map((item) => (
         <motion.div
           key={item.href}
           className="flex justify-center font-bold"
           animate="visible"
           initial="hidden"
-          whileHover={{ scale: 1.2, color: "rgb(74 222 128)" }}
+          whileHover={{ y: -2, color: "rgb(34 197 94)" }}
           whileTap={{ scale: 0.9 }}
         >
           <Link
