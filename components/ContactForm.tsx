@@ -26,7 +26,6 @@ const ContactForm: React.FC = () => {
 
     try {
       const response = await axios.post("/api/send-email", formData);
-      console.log(response);
       if (response.status === 200) {
         setStatus("sent");
         setFormData({ name: "", email: "", message: "" });
@@ -38,7 +37,6 @@ const ContactForm: React.FC = () => {
       setStatus("error");
     }
   };
-
   return (
     <form onSubmit={handleSubmit}>
       <input
