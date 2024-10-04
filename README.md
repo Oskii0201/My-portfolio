@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portfolio v2
 
-## Getting Started
+Welcome to my personal portfolio website, built with modern web technologies to showcase my projects, skills, and contact information. This project is created with a focus on performance, responsiveness, and smooth user experience.
 
-First, run the development server:
+## 🌟 Demo
+Check out the live version [here](https://www.oskardybas.com).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📋 Features
+- 🎨 **Beautiful UI** – Tailored with modern design practices using **TailwindCSS**.
+- ⚡ **Fast and Responsive** – Optimized for mobile, tablet, and desktop devices.
+- 🎬 **Smooth Animations** – Leveraging **Framer Motion** for engaging user interactions.
+- 💼 **Project Showcase** – Highlight your best work dynamically.
+- 📧 **Contact Form** – Integrated with **NodeMailer** for easy communication.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Technologies
 
-## Learn More
+Here are the tools and frameworks used to build this portfolio:
 
-To learn more about Next.js, take a look at the following resources:
+| **Technology**     | **Description**                                     | 
+|--------------------|-----------------------------------------------------|
+| ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)    | React framework with SSR/SSG for building fast apps |
+| ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)           | JavaScript library for building user interfaces      |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Typed superset of JavaScript for better code safety  |
+| ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white) | Utility-first CSS framework for quick styling       |
+| ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat&logo=framer&logoColor=white) | A motion library for smooth animations             |
+| ![NodeMailer](https://img.shields.io/badge/NodeMailer-0078D4?style=flat&logo=mail-dot-com&logoColor=white) | Tool for sending emails from Node.js applications  |
+| ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) | Version control and collaboration platform           |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📬 Contact
 
-## Deploy on Vercel
+Feel free to send me an email at [oskar0201@onet.pl](mailto:oskar0201@onet.pl). I’m always open to discussing new projects, creative ideas, or opportunities to collaborate.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with 💙 by [Oskar Dybas](https://www.linkedin.com/in/oskar-dybas)
