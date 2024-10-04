@@ -17,7 +17,7 @@ const projectsData: Project[] = [
     title: "Portfolio",
     description:
       "Project focused on creating a personal portfolio website that showcases my skills in UX/UI design and front-end development. The site aims to present my work, projects, and experience in an attractive and clear manner.",
-    codeLink: "https://github.com/Oskii0201/portfolio",
+    codeLink: "https://github.com/Oskii0201/my-portfolio",
   },
   {
     image: "/images/universitypilot.png",
