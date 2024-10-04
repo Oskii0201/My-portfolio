@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import axios from "axios";
 import ButtonPrimary from "./ButtonPrimary";
@@ -24,7 +25,8 @@ const ContactForm: React.FC = () => {
     setStatus("sending");
 
     try {
-      const response = await axios.post("/api/contact", formData);
+      const response = await axios.post("/api/send-email", formData);
+      console.log(response);
       if (response.status === 200) {
         setStatus("sent");
         setFormData({ name: "", email: "", message: "" });
