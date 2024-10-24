@@ -24,6 +24,7 @@ const projectsData: Project[] = [
     title: "University Pilot (In Progress)",
     description:
       "University Pilot is a web application aimed at automating the creation of class schedules for higher education institutions. It utilizes advanced machine learning algorithms to optimize timetables, taking into account room availability, lecturers, and student group preferences. The application aims to facilitate university administration work and improve time management efficiency.",
+    codeLink: "https://github.com/Oskii0201/University-Pilot",
   },
   {
     image: "/images/passwordgenerator.png",
